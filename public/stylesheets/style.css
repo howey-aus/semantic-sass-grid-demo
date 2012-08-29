@@ -1,0 +1,50 @@
+.content {
+  width: 978px;
+  margin: 0 auto;
+  color: #666;
+  background: url(/images/simplegrid-978.png) center repeat-y; }
+  @media (max-width: 720px) {
+    .content {
+      width: auto;
+      font-size: 1.125em; } }
+  .content:before, .content:after {
+    content: "";
+    display: table; }
+  .content:after {
+    clear: both; }
+
+.intro {
+  float: left;
+  width: 642px;
+  margin-right: 30px;
+  background-color: white; }
+  @media (max-width: 720px) {
+    .intro {
+      width: auto;
+      float: none;
+      margin: 0; } }
+
+.suppl {
+  float: left;
+  width: 306px;
+  margin-right: 30px;
+  margin-right: 0;
+  background-color: white;
+  font-style: italic; }
+  @media (max-width: 720px) {
+    .suppl {
+      width: auto;
+      float: none;
+      margin: 0; } }
+
+.history {
+  float: left;
+  width: 642px;
+  margin-right: 30px;
+  margin-left: 168px;
+  background-color: white; }
+  @media (max-width: 720px) {
+    .history {
+      width: auto;
+      float: none;
+      margin: 0; } }

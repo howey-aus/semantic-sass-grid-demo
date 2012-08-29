@@ -1,0 +1,25 @@
+@import "grid.css.scss";
+
+.content {
+  @include grid-system;
+  color: #666;
+  background: url(/images/simplegrid-978.png) center repeat-y;
+}
+
+.intro {
+  @include column(8);
+  background-color: white;
+}
+
+.suppl {
+  @include column(4);
+  @include column-last;
+  background-color: white;
+  font-style: italic;
+}
+
+.history {
+  @include column(8);
+  @include push(2);
+  background-color: white;
+}
